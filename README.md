@@ -1,4 +1,7 @@
 # kiraTech
-run 'npm install' in directory
-run 'npm run dev' 
-copy the localhost url and paste in browser
+
+Run `'npm install'` in the directory.
+
+Run `'npm run dev'`.
+
+Copy the localhost URL and paste it into your browser.
