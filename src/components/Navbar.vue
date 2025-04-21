@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="bg-cyan-500 h-50 mb-15">
-        <div class="relative md:w-3/4 mx-auto">
+        <div class="relative md:w-3/4 mx-auto px-10 md:px-0">
             <div class="flex items-center gap-3 absolute top-20">
             <img alt="Vue logo" class="logo" src="@/assets/Avatar.png"/>
             <div class="flex items-end">
@@ -18,13 +18,15 @@
                     <h1 class="text-3xl font-bold">John Doe</h1>
                     <p class="font-light">Last online: 2 days ago</p>
                 </div>
-                <div class="border border-white bg-white rounded flex h-12 w-42 justify-center items-center text-cyan-500 gap-2 cursor-pointer hover:bg-cyan-500 hover:text-white mr-2">
-                    <i class="pi pi-send"/>
-                    <p>Send Message</p>
-                </div>
-                <div class="border border-white bg-cyan-500 rounded flex h-12 w-42 justify-center items-center text-white gap-2 cursor-pointer hover:bg-white hover:text-cyan-500">
-                    <i class="pi pi-plus"/>
-                    <p>Add Friend</p>
+                <div class="hidden md:flex">
+                    <div class="border border-white bg-white rounded flex h-12 w-38 md:w-42 justify-center items-center text-cyan-500 gap-2 cursor-pointer hover:bg-cyan-500 hover:text-white mr-2">
+                        <i class="pi pi-send"/>
+                        <p>Send Message</p>
+                    </div>
+                    <div class="border border-white bg-cyan-500 rounded flex h-12 w-38 md:w-42 justify-center items-center text-white gap-2 cursor-pointer hover:bg-white hover:text-cyan-500">
+                        <i class="pi pi-plus"/>
+                        <p>Add Friend</p>
+                    </div>
                 </div>
             </div>
         </div>

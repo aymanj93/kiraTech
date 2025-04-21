@@ -41,7 +41,7 @@ const refreshPage = () => {
 </script>
 
 <template>
-    <div class="mb-10 md:w-3/4 mx-auto">
+    <div class="mb-10 md:w-3/4 mx-auto px-10 md:px-0">
         <DataTable v-model:filters="filters" :value="users" paginator :rows="10" dataKey="id" :loading="loading"
                 :globalFilterFields="['date','name', 'country.name', 'email', 'gender']"
                 @row-click="onRowClick"
